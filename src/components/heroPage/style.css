@@ -1,0 +1,109 @@
+.heroContiner{
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    width: 100%;
+}
+.heroRightDiv{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.box2{
+   
+    background-color: rgb(151, 117, 184);
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(42, 165, 58);
+    width: 20%;
+}
+.profimg{
+    width: 349px;
+    height: 349px;
+    border-radius: 200px;
+}
+.heroDiv{
+    background-color: rgb(179, 131, 43);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.one1{
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.two{
+    background-color: blueviolet;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.alexaclass{
+    display: flex;
+    flex-direction: column;
+    
+}
+.proftitl{
+    font-size: 60px;
+    background-color: blueviolet;
+}
+.subtitle{
+    font-size: 35px;
+    background-color: blueviolet;
+    color: rgb(132, 192, 21);
+}
+.profdetl{
+    font-size: 20px;
+    background-color: blueviolet;
+    color: rgb(165, 175, 145);
+}
+.three{
+    background-color: rgb(219, 113, 113);
+
+    height: 500px;
+}
+.box{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 450px){
+     .two, .three{
+        width: 40%;
+    }
+    .one1{
+        width: 20%;
+
+    }
+    
+}
+/* @media screen and (min-width: 800px){
+     .container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+    
+} */

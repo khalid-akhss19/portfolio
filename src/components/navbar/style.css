@@ -1,0 +1,40 @@
+.outerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+    color: rgb(47, 102, 141);
+   
+}
+.titlelogo{
+  width: 97px;
+  height:59px;
+
+}
+.rightlinks{
+    display: flex;
+  align-items: center;
+  justify-content: space-b;
+}
+.rightlinks {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+  }
+  .navlink {
+    color: rgb(89, 123, 148);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  .outerContainer {
+    width: 100%;
+    padding: 10px 0 5px;
+    height: 64px;
+  }
+  
+  .iconMoon{
+    cursor: pointer;
+  }
