@@ -4,7 +4,7 @@ import HeroProf from "../../components/heroPage";
 const Home = () => {
   return (
     <>
-    <div style={{paddingTop:"150px"}}>
+    <div style={{paddingTop:"10px"}}>
         <HeroProf/>
     </div>
     <div>

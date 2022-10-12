@@ -10,40 +10,16 @@ import prof1 from "../../assets/images/about.jpg"
 const HeroProf = () => {
   return (
     <>
-        <div className='heroContiner'>
-        <div className='heroRightDiv'>
-            <div className='one'>
-                <Link  to="/" className="navlink">
-                    <FacebookIcon/>
-                </Link>
-                <Link  to="/" className="navlink">
-                    <GitHubIcon/>
-                </Link>
-                <Link  to="/" className="navlink">
-                    <EmailIcon/>
-                </Link>
-            </div>
-            <div className='box2'>
-                <h1>HI I'am Alexa</h1>
-                <h3>Web Developer</h3>
-                <h4>High level experience in web design  and development knowledge, producing  quality work.</h4>
-            </div>
-        </div>
-        <div className='heroDiv'> 
-            <img src={prof1} alt="profimg" className='profimg'/>
-        </div>
-        
-    </div> 
     <div className="container">
             <div className="one1 box">
             <Link  to="/" className="navlink">
-                    <FacebookIcon style={{ color: "black", fontSize: "40", background:"blue"}}/>
+                    <FacebookIcon className='kicon' style={{ fontSize: "40",}}/>
                 </Link>
                 <Link  to="/" className="navlink">
-                    <GitHubIcon style={{ color: "black", fontSize: "40", background:"blue"}}/>
+                    <GitHubIcon className='kicon' style={{ fontSize: "40"} }/>
                 </Link>
                 <Link  to="/" className="navlink">
-                    <EmailIcon style={{ color: "black", fontSize: "40", background:"blue"}}/>
+                    <EmailIcon className='kicon' style={{ fontSize: "40", }}/>
                 </Link>
             </div>
             <div className="two box">
@@ -54,7 +30,9 @@ const HeroProf = () => {
                 </div>
                 
             </div>
-            <div className="three box">4</div>
+            <div className="three box">
+            <img src={prof1} alt="profimg" className='profimg'/>
+            </div>
         </div>
     </>
     

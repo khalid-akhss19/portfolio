@@ -24,10 +24,13 @@
     width: 400px;
   }
   .navlink {
-    color: rgb(89, 123, 148);
+    color: #7153a3;
     text-decoration: none;
     display: flex;
     align-items: center;
+  }
+  .navlink:hover{
+    color: #0b090e;
   }
   .outerContainer {
     width: 100%;
@@ -38,3 +41,4 @@
   .iconMoon{
     cursor: pointer;
   }
+ 

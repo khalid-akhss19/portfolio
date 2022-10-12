@@ -1,9 +1,3 @@
-.heroContiner{
-    display: flex;
-    justify-content: space-around;
-    background-color: brown;
-    width: 100%;
-}
 .heroRightDiv{
     display: flex;
     /* justify-content: space-between; */
@@ -11,7 +5,7 @@
 }
 .box2{
    
-    background-color: rgb(151, 117, 184);
+    /* background-color: rgb(151, 117, 184); */
     width: 82%;
     display: flex;
     flex-direction: column;
@@ -24,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(42, 165, 58);
+    /* background-color: rgb(42, 165, 58); */
     width: 20%;
 }
 .profimg{
@@ -33,7 +27,7 @@
     border-radius: 200px;
 }
 .heroDiv{
-    background-color: rgb(179, 131, 43);
+    /* background-color: rgb(179, 131, 43); */
     width: 40%;
     display: flex;
     justify-content: center;
@@ -45,13 +39,13 @@
 
 }
 .one1{
-    background-color: blue;
+    /* background-color: blue; */
     height: 500px;
     display: flex;
     flex-direction: column;
 }
 .two{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -65,20 +59,29 @@
 }
 .proftitl{
     font-size: 60px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 .subtitle{
     font-size: 35px;
-    background-color: blueviolet;
-    color: rgb(132, 192, 21);
+    /* background-color: blueviolet; */
+    color: rgb(135, 136, 133);
 }
 .profdetl{
-    font-size: 20px;
-    background-color: blueviolet;
-    color: rgb(165, 175, 145);
+    font-size: 30px;
+    /* background-color: blueviolet; */
+    color: rgb(147, 148, 144);
+}
+.kicon{
+    font-size: 50px;
+    color: #7153a3;
+}
+.kicon:hover{
+    color: white;
+    background-color:rgb(0, 0, 0);
+    
 }
 .three{
-    background-color: rgb(219, 113, 113);
+    /* background-color: rgb(219, 113, 113); */
 
     height: 500px;
 }
