@@ -24,16 +24,28 @@ const HeroProf = () => {
             </div>
             <div className="two box">
                 <div className='alexaclass'>
-                    <h1 className='proftitl'>Hi, I'am Alexa</h1>
+                    <h1 className='proftitl'>Hi, I'am 
+                    
+                    
+                    Alexa</h1>
                     <h2 className='subtitle'>Web Developer</h2>
                     <p className='profdetl'>High level experience in web design <br></br>  and  development knowledge, producing <br></br>  quality work.</p>
+                    <div className='contactButn'>
+                        Contact Me
                 </div>
+                <div className='scrolldown'>
+            Scroll down
+        </div>
+                </div>
+                
+                
                 
             </div>
             <div className="three box">
             <img src={prof1} alt="profimg" className='profimg'/>
             </div>
         </div>
+        
     </>
     
   )

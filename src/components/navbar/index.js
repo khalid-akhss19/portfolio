@@ -7,11 +7,11 @@ import DarkModeIcon from '@mui/icons-material/DarkMode';
 const Navbar = () => {
   return (
     <div className='outerContainer'>
-      <div className='title'>
+      <div className='title nav1 boxnav'>
           <h2 className='titlelogo'>logohere </h2>
       </div>
-      <div className='rightlinks'>
-        <div className="rightlinks">
+      <div className='rightlinks navtwo boxnav'>
+        {/* <div className="rightlinks"> */}
             <Link className="navlinks" to="/" className="navlink">
                    <h4>Home</h4> 
             </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 
             
             
-        </div>
+        {/* </div> */}
       
       </div>
     </div>

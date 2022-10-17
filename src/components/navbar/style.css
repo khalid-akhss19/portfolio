@@ -1,33 +1,34 @@
+.boxnav{
+  width: 100%;
+  align-items: center;
+  display: flex;
+ 
+}
+
 .outerContainer{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
 .title{
     display: flex;
-    align-items: center;
+    /* align-items: flex-start; */
     color: rgb(47, 102, 141);
+    padding-left: 60px;
+
    
 }
-.titlelogo{
-  width: 97px;
-  height:59px;
 
-}
-.rightlinks{
-    display: flex;
-  align-items: center;
-  justify-content: space-b;
-}
 .rightlinks {
     display: flex;
-    justify-content: space-around;
-    width: 400px;
+    justify-content: space-evenly;
+    /* width: 400px; */
   }
   .navlink {
     color: #7153a3;
     text-decoration: none;
     display: flex;
     align-items: center;
+    /* font-size: 16px; */
   }
   .navlink:hover{
     color: #0b090e;
@@ -35,10 +36,20 @@
   .outerContainer {
     width: 100%;
     padding: 10px 0 5px;
-    height: 64px;
+    height: 100px;
   }
   
   .iconMoon{
     cursor: pointer;
   }
  
+  @media screen and (min-width: 450px){
+    .navtwo{
+       width: 60%;
+   }
+   .nav1{
+       width: 40%;
+
+   }
+   
+}
